@@ -17,9 +17,7 @@ export default async function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      {pages.map((page) => (
-        <h1 key={page.title}> pages </h1>
-      ))}
+      <h1>Gudyz</h1>
     </main>
   );
 }
