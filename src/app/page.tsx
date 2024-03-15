@@ -1,4 +1,5 @@
 import { API_URL } from "./config";
+import Test from "./components/Test";
 async function getPages() {
   const res = await fetch(`${API_URL}/pagesdinamics`);
   if (!res.ok) {
@@ -15,6 +16,7 @@ export default async function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <h1>Gudyz.commmmmm</h1>
+      <Test></Test>
     </main>
   );
 }
