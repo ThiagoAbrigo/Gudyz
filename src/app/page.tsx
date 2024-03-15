@@ -14,7 +14,7 @@ interface Page {
 export default async function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>Gudyz.esssss</h1>
+      <h1>Gudyz.commm</h1>
     </main>
   );
 }
